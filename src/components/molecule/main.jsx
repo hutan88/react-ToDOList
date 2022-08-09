@@ -19,6 +19,7 @@ export const Main = ()=>
         }
         const task = { id: listTasks.length === 0 ? 1 : listTasks[listTasks.length - 1].id + 1,taskName: newTask,isComplete:false}
         setListTasks([...listTasks,task]);
+        document.getElementById("in").value=""
     }
 
     function handleDelete(id)
