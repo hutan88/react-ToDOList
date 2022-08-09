@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { findDOMNode } from "react-dom";
 
 export const Main = ()=>
 {
